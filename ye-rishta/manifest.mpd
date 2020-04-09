@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<MPD mediaPresentationDuration="PT16.000S" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011">
+<MPD mediaPresentationDuration="PT8.000S" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011">
   <BaseURL>https://gitlab.com/kalia247/aboslute-path-test/-/raw/master/segments/ye-rishta/</BaseURL>
   <Period>
     <AdaptationSet maxHeight="1080" maxWidth="1920" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
