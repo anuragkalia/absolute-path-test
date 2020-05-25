@@ -3,24 +3,24 @@
   <!-- Created with Bento4 mp4-dash.py, VERSION=1.8.0-627 -->
   <Period>
     <!-- Video -->
-    <!-- <AdaptationSet maxHeight="1080" maxWidth="1920" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
-      <Representation bandwidth="117400" codecs="avc1.42C00C" frameRate="25" height="180" id="v-1" scanType="progressive" width="320">
+    <AdaptationSet maxHeight="1080" maxWidth="1920" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
+      <!-- <Representation bandwidth="117400" codecs="avc1.42C00C" frameRate="25" height="180" id="v-1" scanType="progressive" width="320">
         <SegmentTemplate duration="4000" initialization="$RepresentationID$/v-init.mp4" media="$RepresentationID$/v-seg-$Number$.m4s" startNumber="1" timescale="1000"/>
-      </Representation>
+      </Representation> -->
       <Representation bandwidth="678314" codecs="avc1.4D401F" frameRate="25" height="480" id="v-4" scanType="progressive" width="854">
         <SegmentTemplate duration="4000" initialization="$RepresentationID$/v-4-init.mp4" media="$RepresentationID$/v-4-seg-$Number$.m4s" startNumber="1" timescale="1000"/>
       </Representation>
-    </AdaptationSet> -->
+    </AdaptationSet>
     <!-- Audio -->
-    <AdaptationSet mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
-      <!-- <Representation audioSamplingRate="48000" bandwidth="32948" codecs="mp4a.40.5" id="a-1">
+    <!-- <AdaptationSet mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+      <Representation audioSamplingRate="48000" bandwidth="32948" codecs="mp4a.40.5" id="a-1">
         <SegmentTemplate duration="4000" initialization="$RepresentationID$/a-init.mp4" media="$RepresentationID$/a-seg-$Number$.m4s" startNumber="1" timescale="1000"/>
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-      </Representation> -->
+      </Representation>
       <Representation audioSamplingRate="48000" bandwidth="64948" codecs="mp4a.40.5" id="a-3">
         <SegmentTemplate duration="4000" initialization="$RepresentationID$/a-3-init.mp4" media="$RepresentationID$/a-3-seg-$Number$.m4s" startNumber="1" timescale="1000"/>
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       </Representation>
-    </AdaptationSet>
+    </AdaptationSet> -->
   </Period>
 </MPD>
