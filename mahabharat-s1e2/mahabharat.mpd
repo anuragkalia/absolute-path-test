@@ -17,10 +17,10 @@
         <SegmentTemplate duration="4000" initialization="$RepresentationID$/a-init.mp4" media="$RepresentationID$/a-seg-$Number$.m4s" startNumber="1" timescale="1000"/>
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       </Representation> -->
-      <Representation audioSamplingRate="48000" bandwidth="64948" codecs="mp4a.40.5" id="a-3">
+      <!-- <Representation audioSamplingRate="48000" bandwidth="64948" codecs="mp4a.40.5" id="a-3">
         <SegmentTemplate duration="4000" initialization="$RepresentationID$/a-3-init.mp4" media="$RepresentationID$/a-3-seg-$Number$.m4s" startNumber="1" timescale="1000"/>
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-      </Representation>
+      </Representation> -->
     </AdaptationSet>
   </Period>
 </MPD>
